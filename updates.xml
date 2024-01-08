@@ -1,0 +1,12 @@
+<application>
+  <component name="UpdatesConfigurable">
+    <option name="LAST_BUILD_CHECKED" value="AI-231.9392.1.2311.11255304" />
+    <option name="LAST_TIME_CHECKED" value="1704732524774" />
+    <pluginHosts>
+      <item value="https://plugins.jetbrains.com/plugins/nightly/17718" />
+      <item value="https://plugins.jetbrains.com/plugins/nightly/9682" />
+    </pluginHosts>
+    <option name="THIRD_PARTY_PLUGINS_ALLOWED" value="true" />
+    <option name="UPDATE_CHANNEL_TYPE" value="release" />
+  </component>
+</application>
