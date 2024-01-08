@@ -1,0 +1,15 @@
+detekt
+dev.hueflake.theme.deep
+org.jodd.idea.props
+com.github.copilot
+com.intellij.marketplace
+com.intellij.plugins.github.colorscheme
+Dart
+com.ahmed3elshaer.true-black-theme
+idea.plugin.protoeditor
+com.wakatime.intellij.plugin
+com.sourcegraph.jetbrains
+com.github.developerutils.kotlin-function-arguments-helper
+com.jetbrains.kmm
+io.flutter
+org.jetbrains.settingsRepository
