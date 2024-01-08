@@ -1,0 +1,42 @@
+<keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="ActivateBookmarksToolWindow" />
+  <action id="ActivateBuildToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="Android.CleanRun" />
+  <action id="DuplicatesForm.SendToRight" />
+  <action id="FileChooser.GotoProject" />
+  <action id="Github.PullRequest.Comments.Reload" />
+  <action id="Github.PullRequest.Details.Reload" />
+  <action id="GotoTest" />
+  <action id="GotoTypeDeclaration">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+    <mouse-shortcut keystroke="shift meta button1" />
+  </action>
+  <action id="MakeGradleProject">
+    <keyboard-shortcut first-keystroke="meta f9" />
+    <keyboard-shortcut first-keystroke="shift meta b" />
+  </action>
+  <action id="Refresh" />
+  <action id="Replace" />
+  <action id="ResourceExplorer.show" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="ServiceView.ShowServices" />
+  <action id="Svn.RefreshWorkingCopies" />
+  <action id="Tool_External Tools_Open Warp">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
+  <action id="Vcs.Log.Refresh" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta e" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta e" />
+  </action>
+  <action id="android.device.back.button" />
+  <action id="android.device.rotate.right" />
+  <action id="android.emulator.tilt" />
+</keymap>
