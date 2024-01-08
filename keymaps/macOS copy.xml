@@ -1,0 +1,25 @@
+<keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="Android.CleanRun" />
+  <action id="CIDR.Lang.Cpp.GenerateDefinitions" />
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="GitLab.Merge.Request.List.Refresh" />
+  <action id="GitLab.Merge.Request.Refresh" />
+  <action id="Github.PullRequest.Comments.Reload" />
+  <action id="Github.PullRequest.Details.Reload" />
+  <action id="Refresh" />
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="Run" />
+  <action id="Svn.RefreshWorkingCopies" />
+  <action id="UsageFiltering.ReadAccess" />
+  <action id="Vcs.Log.Refresh" />
+  <action id="android.device.rotate.right" />
+  <action id="android.device.volume.down.button" />
+</keymap>
