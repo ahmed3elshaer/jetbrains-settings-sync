@@ -20,6 +20,12 @@
   <action id="Svn.RefreshWorkingCopies" />
   <action id="UsageFiltering.ReadAccess" />
   <action id="Vcs.Log.Refresh" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta e" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta e" />
+  </action>
   <action id="android.device.rotate.right" />
   <action id="android.device.volume.down.button" />
 </keymap>
