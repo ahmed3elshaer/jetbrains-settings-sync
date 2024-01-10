@@ -1,4 +1,7 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="ActivateCodyToolWindow">
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
   <action id="ActivateCommitToolWindow" />
   <action id="ActivateFindToolWindow" />
   <action id="ActivateLogcatToolWindow">
@@ -7,5 +10,10 @@
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="meta 3" />
   </action>
+  <action id="CIDR.Debugger.CopyAddress" />
+  <action id="CopyAbsolutePath" />
+  <action id="CopyPaths" />
   <action id="FileChooser.GotoModule" />
+  <action id="WelcomeScreen.CopyProjectPath" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction" />
 </keymap>
