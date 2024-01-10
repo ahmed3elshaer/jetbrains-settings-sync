@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="arb" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="arb" approved="true" type="Application Resource Bundle" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping pattern="pubspec.lock" approved="true" type="YAML" />
     </extensionMap>
