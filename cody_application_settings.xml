@@ -1,7 +1,78 @@
 <application>
   <component name="CodyApplicationSettings">
     <option name="anonymousUserId" value="a889a2ff-c37d-4652-9d8b-7e44e088ff95" />
+    <option name="blacklistedLanguageIds">
+      <list>
+        <option value="GitIgnore" />
+        <option value="HgIgnore" />
+        <option value="IgnoreLang" />
+        <option value="AGSL" />
+        <option value="AIDL" />
+        <option value="ASM" />
+        <option value="AndroidDataBinding" />
+        <option value="ObjectiveC" />
+        <option value="CMake" />
+        <option value="CMakeCache" />
+        <option value="DeviceSpec" />
+        <option value="DTD" />
+        <option value="Dart" />
+        <option value="Dart in Html" />
+        <option value="Doxygen" />
+        <option value="EditorConfig" />
+        <option value="GDB" />
+        <option value="Groovy" />
+        <option value="HEXDUMP" />
+        <option value="HTML" />
+        <option value="HtmlCompatible" />
+        <option value="IntegrationPerformanceTest" />
+        <option value="JQL" />
+        <option value="JSON" />
+        <option value="JSON Lines" />
+        <option value="JSON5" />
+        <option value="JSONPath" />
+        <option value="JSRegexp" />
+        <option value="JSUnicodeRegexp" />
+        <option value="JShellLanguage" />
+        <option value="JVM" />
+        <option value="UAST" />
+        <option value="JAVA" />
+        <option value="kotlin" />
+        <option value="KND" />
+        <option value="LLDB" />
+        <option value="LogcatFilter" />
+        <option value="Manifest" />
+        <option value="Markdown" />
+        <option value="ModuleMap" />
+        <option value="MultiDexKeep" />
+        <option value="TEXT" />
+        <option value="Properties" />
+        <option value="Props" />
+        <option value="RELAX-NG" />
+        <option value="RegExp" />
+        <option value="Renderscript" />
+        <option value="RoomSql" />
+        <option value="SPI" />
+        <option value="SVG" />
+        <option value="Shell Script" />
+        <option value="SHRINKER_CONFIG" />
+        <option value="Smali" />
+        <option value="TOML" />
+        <option value="UastContextLanguage" />
+        <option value="XHTML" />
+        <option value="XML" />
+        <option value="XsdRegExp" />
+        <option value="yaml" />
+        <option value="YouTrack" />
+        <option value="GitExclude" />
+        <option value="protobase" />
+        <option value="protobuf" />
+        <option value="prototext" />
+        <option value="textmate" />
+      </list>
+    </option>
+    <option name="codyEnabled" value="false" />
     <option name="installEventLogged" value="true" />
+    <option name="lookupAutocompleteEnabled" value="false" />
     <option name="onboardingGuidanceDismissed" value="true" />
   </component>
 </application>
