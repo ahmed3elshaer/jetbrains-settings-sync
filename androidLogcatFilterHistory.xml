@@ -1,8 +1,10 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="" />
+    <option name="mostRecentlyUsed" value="WebView" />
     <option name="nonFavorites">
       <list>
+        <option value="WebView" />
+        <option value="http" />
         <option value="package:mine" />
         <option value="flutter.amwal_pay_example" />
         <option value="package:" />
