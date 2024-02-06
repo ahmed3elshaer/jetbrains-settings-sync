@@ -3,6 +3,7 @@
     <option name="nonFavorites">
       <list>
         <option value="package:mine " />
+        <option value="package:mine SavePhoneNumberOffer" />
         <option value="UserPresentReceiver" />
         <option value="WebView" />
         <option value="http" />
