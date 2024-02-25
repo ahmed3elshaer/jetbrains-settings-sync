@@ -1,5 +1,6 @@
 <application>
   <component name="CodyApplicationSettings">
+    <option name="anonymousUserId" value="17e81b4a-2b34-40a6-bc70-ea07aa423911" />
     <option name="blacklistedLanguageIds">
       <list>
         <option value="GitIgnore" />
