@@ -1,8 +1,11 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="" />
+    <option name="mostRecentlyUsed" value="package:mine  " />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine  " />
+        <option value="package:mine  payment failed" />
+        <option value="package:mine  failed" />
         <option value="package:com.ahmed3elshaer.weather " />
         <option value="package:com.ahmed3elshaer.weather 1.0" />
         <option value="package:mine " />
