@@ -3,12 +3,13 @@
     <option name="mostRecentlyUsed" value="" />
     <option name="nonFavorites">
       <list>
+        <option value="MainActivity" />
         <option value="package:mine  " />
+        <option value="package:mine " />
         <option value="package:mine  payment failed" />
         <option value="package:mine  failed" />
         <option value="package:com.ahmed3elshaer.weather " />
         <option value="package:com.ahmed3elshaer.weather 1.0" />
-        <option value="package:mine " />
         <option value="package:mine SavePhoneNumberOffer" />
         <option value="UserPresentReceiver" />
         <option value="WebView" />
