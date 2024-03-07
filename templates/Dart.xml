@@ -1,0 +1,11 @@
+<templateSet group="Dart">
+  <template name="channo" value="import 'package:flutter/material.dart';&#10;&#10;class $CLASS_NAME$ extends ChangeNotifier {&#10;  final $SERVICE_NAME$ _service = $SERVICE_NAME$();&#10;  List&lt;$MODEL_NAME$&gt; _data = [];&#10;  bool _isLoading = false;&#10;  bool _hasError = false;&#10;&#10;  List&lt;$MODEL_NAME$&gt; get data =&gt; _data;&#10;  bool get isLoading =&gt; _isLoading;&#10;  bool get hasError =&gt; _hasError;&#10;&#10;  Future&lt;void&gt; loadData() async {&#10;    _isLoading = true;&#10;    _hasError = false;&#10;    notifyListeners();&#10;    _isLoading = false;&#10;    try {&#10;      final cards = await _service.$METHOD_NAME$();&#10;      for (var card in cards) {&#10;        print(card);&#10;      }&#10;      _data = mapDynamicTo$MODEL_NAME$List(cards);&#10;      notifyListeners();&#10;    } on Exception catch (_, e) {&#10;      _hasError = true;&#10;      print(e);&#10;      notifyListeners();&#10;    }&#10;  }&#10;}&#10;&#10;List&lt;$MODEL_NAME$&gt; mapDynamicTo$MODEL_NAME$List(List&lt;dynamic&gt; jsonList) {&#10;  return jsonList&#10;      .map&lt;$MODEL_NAME$&gt;((json) =&gt; $MODEL_NAME$.fromJson(json))&#10;      .toList();&#10;}" description="ChangeNotifier for any flutter provider" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="capitalizeAndUnderscore(String)" defaultValue="" alwaysStopAt="true" />
+    <variable name="SERVICE_NAME" expression="dartClassName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODEL_NAME" expression="dartClassName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="dartClassNameMethodName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+</templateSet>
