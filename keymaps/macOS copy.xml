@@ -15,6 +15,9 @@
     <keyboard-shortcut first-keystroke="meta 3" />
   </action>
   <action id="Android.CleanRun" />
+  <action id="ApplyInlayAction">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
   <action id="CIDR.Debugger.CopyAddress" />
   <action id="CIDR.Lang.Cpp.GenerateDefinitions" />
   <action id="CopyAbsolutePath" />
