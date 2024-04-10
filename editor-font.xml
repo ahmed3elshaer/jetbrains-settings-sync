@@ -3,11 +3,10 @@
     <option name="VERSION" value="1" />
     <option name="FONT_SIZE" value="15" />
     <option name="FONT_SIZE_2D" value="15.0" />
-    <option name="FONT_FAMILY" value="Zed Mono" />
-    <option name="FONT_REGULAR_SUB_FAMILY" value="Medium Extended" />
-    <option name="FONT_BOLD_SUB_FAMILY" value="Extrabold Extended" />
+    <option name="FONT_FAMILY" value="Ellograph CF" />
+    <option name="FONT_REGULAR_SUB_FAMILY" value="Bold" />
+    <option name="FONT_BOLD_SUB_FAMILY" value="Extra Bold" />
     <option name="LINE_SPACING" value="1.1" />
     <option name="USE_LIGATURES" value="true" />
-    <option name="SECONDARY_FONT_FAMILY" value="Ellograph CF" />
   </component>
 </application>
