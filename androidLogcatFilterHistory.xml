@@ -3,6 +3,9 @@
     <option name="nonFavorites">
       <list>
         <option value="package:mine " />
+        <option value=" update :" />
+        <option value="" />
+        <option value="newList" />
         <option value="MainActivity" />
         <option value="package:mine  " />
         <option value="package:mine  payment failed" />
