@@ -1,0 +1,33 @@
+<application>
+  <component name="StudioBotSettings">
+    <option name="onboardedVersion" value="3" />
+    <option name="queryHistory">
+      <list>
+        <historyEntry timestamp="1713888016254">Make suggestions to improve this code:
+actual suspend fun getLocation(): Location? {
+    return suspendCancellableCoroutine { continuation -&gt;
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.distanceFilter = kCLDistanceFilterNone
+        locationManager.startUpdatingLocation()
+
+        // Define a callback to receive location updates
+        val locationDelegate = LocationDelegate()
+        locationDelegate.onLocationUpdate = { location -&gt;
+            latestLocation.value = location
+            if (location != null) {
+                continuation.resume(location)
+                locationManager.stopUpdatingLocation()
+                locationManager.delegate = null
+            } else {
+                continuation.resumeWithException(Exception(&quot;Unable to get current location&quot;))
+            }
+        }
+        locationManager.delegate = locationDelegate
+    }
+
+}</historyEntry>
+      </list>
+    </option>
+  </component>
+</application>
