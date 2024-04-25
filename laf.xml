@@ -1,10 +1,11 @@
 <application>
-  <component name="LafManager">
-    <laf themeId="034ee01a-1573-4e36-862a-9babb3802809" />
-    <preferred-light-laf themeId="ae7a917c-04b2-4468-bdd9-6ddd4c43f879" />
+  <component name="LafManager" autodetect="true">
+    <laf themeId="ExperimentalLight" />
+    <preferred-light-laf themeId="ffc5ede9-7562-4116-a55d-6af9a5433982" />
     <preferred-dark-laf themeId="034ee01a-1573-4e36-862a-9babb3802809" />
     <lafs-to-previous-schemes>
       <laf-to-scheme laf="True Black" scheme="_@user_True Dark" />
+      <laf-to-scheme laf="ffc5ede9-7562-4116-a55d-6af9a5433982" scheme="_@user_Default" />
     </lafs-to-previous-schemes>
   </component>
 </application>

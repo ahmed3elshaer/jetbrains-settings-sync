@@ -2,7 +2,7 @@
   <component name="com.smallcloud.refactai.settings.PrivacyState">
     <option name="privacyRecords">
       <list>
-        <PrivacyRecord filePath="$USER_HOME$/Developer/personal/ramen-mobile" privacy="ENABLED" />
+        <PrivacyRecord filePath="$USER_HOME$/Developer/open-source/redwood" privacy="ENABLED" />
       </list>
     </option>
   </component>
