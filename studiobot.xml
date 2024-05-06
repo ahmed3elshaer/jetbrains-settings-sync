@@ -3,30 +3,8 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
-        <historyEntry timestamp="1713888016254">Make suggestions to improve this code:
-actual suspend fun getLocation(): Location? {
-    return suspendCancellableCoroutine { continuation -&gt;
-        locationManager.requestWhenInUseAuthorization()
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.distanceFilter = kCLDistanceFilterNone
-        locationManager.startUpdatingLocation()
-
-        // Define a callback to receive location updates
-        val locationDelegate = LocationDelegate()
-        locationDelegate.onLocationUpdate = { location -&gt;
-            latestLocation.value = location
-            if (location != null) {
-                continuation.resume(location)
-                locationManager.stopUpdatingLocation()
-                locationManager.delegate = null
-            } else {
-                continuation.resumeWithException(Exception(&quot;Unable to get current location&quot;))
-            }
-        }
-        locationManager.delegate = locationDelegate
-    }
-
-}</historyEntry>
+        <historyEntry timestamp="1715008319786">if i want to rewrite a custom box composable without using the existing one in the foundation library, how would i create it with the layout composable and how can i respect the padding modifier ?</historyEntry>
+        <historyEntry timestamp="1715007901446">how compose ui internally sets the padding modifier when intializing the Layout composable ?</historyEntry>
       </list>
     </option>
   </component>
