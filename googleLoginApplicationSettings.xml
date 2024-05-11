@@ -1,12 +1,13 @@
 <application>
   <component name="GoogleLoginApplicationSettings">
-    <option name="activeUser" value="shaer@amwal.tech" />
+    <option name="activeUser" value="ahmed3elshaer@gmail.com" />
     <option name="userEmail2FeaturesStore">
       <map>
         <entry key="ahmed3elshaer@gmail.com">
           <value>
             <set>
               <option value="User Info" />
+              <option value="Gemini" />
               <option value="Firebase" />
             </set>
           </value>
@@ -14,9 +15,9 @@
         <entry key="shaer@amwal.tech">
           <value>
             <set>
-              <option value="User Info" />
-              <option value="Firebase" />
               <option value="Android Vitals" />
+              <option value="Firebase" />
+              <option value="User Info" />
             </set>
           </value>
         </entry>
