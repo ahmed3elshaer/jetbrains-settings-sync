@@ -1,6 +1,6 @@
 <application>
   <component name="StudioBotSettings">
-    <option name="contextSharingMode" value="AskPerProject" />
+    <option name="contextSharingModeV2" value="AskPerProject" />
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
