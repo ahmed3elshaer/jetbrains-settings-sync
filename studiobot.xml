@@ -1,32 +1,180 @@
 <application>
   <component name="StudioBotSettings">
+    <option name="acceptedTermsVersion" value="3" />
     <option name="contextSharingModeV2" value="AskPerProject" />
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
-        <historyEntry timestamp="1713888016254">Make suggestions to improve this code:
-actual suspend fun getLocation(): Location? {
-    return suspendCancellableCoroutine { continuation -&gt;
-        locationManager.requestWhenInUseAuthorization()
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.distanceFilter = kCLDistanceFilterNone
-        locationManager.startUpdatingLocation()
+        <historyEntry timestamp="1717197595572">Make suggestions to improve this code:
+/**
+ * A custom [androidx.compose.foundation.layout.Box] implementation that:
+ *
+ * - Supports passing child layout info as part of the Box's constructor instead of reading the
+ *   information from the child's modifier.
+ * - Supports stretching children along each axis individually.
+ */
+@Composable
+internal inline fun Box(
+  childrenLayoutInfo: BoxChildrenLayoutInfo,
+  modifier: Modifier = Modifier.padding(),
+  propagateMinConstraints: Boolean = false,
+  content: @Composable () -&gt; Unit,
+) {
+  val measurePolicy = remember(childrenLayoutInfo, propagateMinConstraints) {
+    BoxMeasurePolicy(childrenLayoutInfo.infos, propagateMinConstraints)
+  }
+  Layout(
+    content = content,
+    measurePolicy = measurePolicy,
+    modifier = modifier,
+  )
+}
 
-        // Define a callback to receive location updates
-        val locationDelegate = LocationDelegate()
-        locationDelegate.onLocationUpdate = { location -&gt;
-            latestLocation.value = location
-            if (location != null) {
-                continuation.resume(location)
-                locationManager.stopUpdatingLocation()
-                locationManager.delegate = null
-            } else {
-                continuation.resumeWithException(Exception(&quot;Unable to get current location&quot;))
-            }
-        }
-        locationManager.delegate = locationDelegate
+/** Wrapper class to ensure argument stability when passed to a Compose function. */
+@Immutable
+internal data class BoxChildrenLayoutInfo(
+  val infos: List&lt;BoxChildLayoutInfo&gt;,
+)
+
+@Immutable
+internal data class BoxChildLayoutInfo(
+  val alignment: Alignment,
+  val matchParentWidth: Boolean,
+  val matchParentHeight: Boolean,
+  val paddingValues: PaddingValues,
+)
+
+@PublishedApi
+internal data class BoxMeasurePolicy(
+  private val childrenLayoutInfo: List&lt;BoxChildLayoutInfo&gt;,
+  private val propagateMinConstraints: Boolean,
+) : MeasurePolicy {
+  override fun MeasureScope.measure(
+    measurables: List&lt;Measurable&gt;,
+    constraints: Constraints,
+  ): MeasureResult {
+    if (measurables.isEmpty()) {
+      return layout(
+        constraints.minWidth,
+        constraints.minHeight,
+      ) {}
     }
 
+    val contentConstraints = if (propagateMinConstraints) {
+      constraints
+    } else {
+      constraints.copy(minWidth = 0, minHeight = 0)
+    }
+
+    if (measurables.size == 1) {
+      val measurable = measurables[0]
+      val layoutInfo = childrenLayoutInfo[0]
+      var childConstraints = contentConstraints
+      if (layoutInfo.matchParentWidth) {
+        childConstraints = childConstraints.copy(
+          minWidth = constraints.minWidth,
+          maxWidth = constraints.minWidth,
+        )
+      }
+      if (layoutInfo.matchParentHeight) {
+        childConstraints = childConstraints.copy(
+          minHeight = constraints.minHeight,
+          maxHeight = constraints.minHeight,
+        )
+      }
+
+      val start = layoutInfo.paddingValues.calculateStartPadding(layoutDirection).roundToPx()
+      val end = layoutInfo.paddingValues.calculateEndPadding(layoutDirection).roundToPx()
+      val top = layoutInfo.paddingValues.calculateTopPadding().roundToPx()
+      val bottom = layoutInfo.paddingValues.calculateBottomPadding().roundToPx()
+      val horizontal = start + end
+      val vertical = top + bottom
+
+      val placeable = measurable.measure(childConstraints.offset(-horizontal, -vertical))
+      val boxWidth = max(constraints.minWidth, placeable.width)
+      val boxHeight = max(constraints.minHeight, placeable.height)
+      return layout(boxWidth + horizontal, boxHeight + vertical) {
+        placeInBox(placeable, layoutDirection, boxWidth, boxHeight, childrenLayoutInfo[0])
+      }
+    }
+
+    val placeables = arrayOfNulls&lt;Placeable&gt;(measurables.size)
+    // First measure non match parent size children to get the size of the Box.
+    var hasMatchParentSizeChildren = false
+    var boxWidth = constraints.minWidth
+    var boxHeight = constraints.minHeight
+    measurables.fastForEachIndexed { index, measurable -&gt;
+      val layoutInfo = childrenLayoutInfo[index]
+      if (layoutInfo.matchParentWidth || layoutInfo.matchParentHeight) {
+        hasMatchParentSizeChildren = true
+      } else {
+        val start = layoutInfo.paddingValues.calculateStartPadding(layoutDirection).roundToPx()
+        val end = layoutInfo.paddingValues.calculateEndPadding(layoutDirection).roundToPx()
+        val top = layoutInfo.paddingValues.calculateTopPadding().roundToPx()
+        val bottom = layoutInfo.paddingValues.calculateBottomPadding().roundToPx()
+        val horizontal = start + end
+        val vertical = top + bottom
+        val placeable = measurable.measure(contentConstraints.offset(-horizontal, -vertical))
+        placeables[index] = placeable
+        boxWidth = max(boxWidth, placeable.width) + horizontal
+        boxHeight = max(boxHeight, placeable.height) + vertical
+      }
+    }
+
+    // Now measure match parent size children, if any.
+    if (hasMatchParentSizeChildren) {
+      measurables.fastForEachIndexed { index, measurable -&gt;
+        val layoutInfo = childrenLayoutInfo[index]
+        if (layoutInfo.matchParentWidth || layoutInfo.matchParentHeight) {
+          // The infinity check is needed for default intrinsic measurements.
+          var childConstraints = contentConstraints
+          if (layoutInfo.matchParentWidth) {
+            childConstraints = childConstraints.copy(
+              minWidth = if (boxWidth != Constraints.Infinity) boxWidth else 0,
+              maxWidth = boxWidth,
+            )
+          }
+          if (layoutInfo.matchParentHeight) {
+            childConstraints = childConstraints.copy(
+              minHeight = if (boxHeight != Constraints.Infinity) boxHeight else 0,
+              maxHeight = boxHeight,
+            )
+          }
+          val start = layoutInfo.paddingValues.calculateStartPadding(layoutDirection).roundToPx()
+          val end = layoutInfo.paddingValues.calculateEndPadding(layoutDirection).roundToPx()
+          val top = layoutInfo.paddingValues.calculateTopPadding().roundToPx()
+          val bottom = layoutInfo.paddingValues.calculateBottomPadding().roundToPx()
+          val horizontal = start + end
+          val vertical = top + bottom
+          placeables[index] = measurable.measure(childConstraints.offset(-horizontal, -vertical))
+          boxWidth += horizontal
+          boxHeight += vertical
+        }
+      }
+    }
+
+    // Specify the size of the Box and position its children.
+    return layout(boxWidth, boxHeight) {
+      placeables.forEachIndexed { index, placeable -&gt;
+        placeInBox(placeable!!, layoutDirection, boxWidth, boxHeight, childrenLayoutInfo[index])
+      }
+    }
+  }
+}
+
+private fun Placeable.PlacementScope.placeInBox(
+  placeable: Placeable,
+  layoutDirection: LayoutDirection,
+  boxWidth: Int,
+  boxHeight: Int,
+  layoutInfo: BoxChildLayoutInfo,
+) {
+  val position = layoutInfo.alignment.align(
+    IntSize(placeable.width, placeable.height),
+    IntSize(boxWidth, boxHeight),
+    layoutDirection,
+  )
+  placeable.place(position)
 }</historyEntry>
       </list>
     </option>
