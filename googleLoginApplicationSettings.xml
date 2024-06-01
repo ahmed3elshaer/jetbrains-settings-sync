@@ -6,9 +6,9 @@
         <entry key="ahmed3elshaer@gmail.com">
           <value>
             <set>
+              <option value="Firebase" />
               <option value="User Info" />
               <option value="Gemini" />
-              <option value="Firebase" />
             </set>
           </value>
         </entry>
