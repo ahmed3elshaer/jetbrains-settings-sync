@@ -1,9 +1,9 @@
 <application>
   <component name="DefaultFont">
     <option name="VERSION" value="1" />
-    <option name="FONT_FAMILY" value="Monaspace Radon" />
-    <option name="FONT_REGULAR_SUB_FAMILY" value="SemiWide Medium" />
-    <option name="FONT_BOLD_SUB_FAMILY" value="SemiWide ExtraBold" />
+    <option name="FONT_FAMILY" value="Ellograph CF" />
+    <option name="FONT_REGULAR_SUB_FAMILY" value="Demi Bold" />
+    <option name="FONT_BOLD_SUB_FAMILY" value="Extra Bold" />
     <option name="USE_LIGATURES" value="true" />
   </component>
 </application>
