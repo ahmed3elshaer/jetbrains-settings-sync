@@ -3,6 +3,7 @@
     <option name="pluginIds">
       <list>
         <option value="Docker" />
+        <option value="com.jetbrains.kmm" />
       </list>
     </option>
   </component>
