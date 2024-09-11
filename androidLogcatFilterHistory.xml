@@ -1,0 +1,25 @@
+<application>
+  <component name="AndroidLogcatFilterHistory">
+    <option name="nonFavorites">
+      <list>
+        <option value="package:mine " />
+        <option value=" update :" />
+        <option value="" />
+        <option value="newList" />
+        <option value="MainActivity" />
+        <option value="package:mine  " />
+        <option value="package:mine  payment failed" />
+        <option value="package:mine  failed" />
+        <option value="package:com.ahmed3elshaer.weather " />
+        <option value="package:com.ahmed3elshaer.weather 1.0" />
+        <option value="package:mine SavePhoneNumberOffer" />
+        <option value="UserPresentReceiver" />
+        <option value="WebView" />
+        <option value="http" />
+        <option value="package:mine" />
+        <option value="flutter.amwal_pay_example" />
+        <option value="package:" />
+      </list>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,10 @@
+<application>
+  <component name="com.smallcloud.userSettings.AppSettingsState">
+    <option name="apiKey" value="JBJbD8cXtPqC6PeipWf4zxR1" />
+    <option name="defaultSystemPrompt" value="I want you to act as a software developer. I will provide some specific information/requirements about anything related to kotlin and it’s platforms like IDE, android, Kotlin Multiplatform or Jetpack compose and open source kotlin libraries, and it will be your job to come up with an architecture and code for developing secure solution for it, always try to provide paragmetic and out of the box solutions, better try to find open source solutions and get inspired from it" />
+    <option name="inferenceUri" value="https://inference.smallcloud.ai/" />
+    <option name="startupLoggedIn" value="true" />
+    <option name="useMultipleFilesCompletion" value="true" />
+    <option name="userLoggedIn" value="ahmed3elshaer@gmail.com" />
+  </component>
+</application>

@@ -1,0 +1,6 @@
+<application>
+  <component name="CodeGPT_ConfigurationSettings_210">
+    <option name="codeCompletionsEnabled" value="true" />
+    <option name="createNewChatOnEachAction" value="true" />
+  </component>
+</application>
