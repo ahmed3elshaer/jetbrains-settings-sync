@@ -4,6 +4,7 @@
     <option name="nonFavorites">
       <list>
         <option value="map" />
+        <option value="MapViewImpl" />
         <option value="MapPickerView" />
         <option value="setOnCameraMoveStartedListener" />
         <option value="package:mine " />
@@ -22,7 +23,6 @@
         <option value="WebView" />
         <option value="http" />
         <option value="package:mine" />
-        <option value="flutter.amwal_pay_example" />
       </list>
     </option>
   </component>
