@@ -1,12 +1,14 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="MapViewImpl" />
+    <option name="mostRecentlyUsed" value="MapPickerView" />
     <option name="nonFavorites">
       <list>
-        <option value="MapViewImpl" />
-        <option value="package:mine " />
         <option value="MapPickerView" />
+        <option value="Map" />
+        <option value="MapView" />
+        <option value="MapViewImpl" />
         <option value="map" />
+        <option value="package:mine " />
         <option value="setOnCameraMoveStartedListener" />
         <option value="package:mine MapPickerView" />
         <option value=" update :" />
@@ -21,8 +23,6 @@
         <option value="package:mine SavePhoneNumberOffer" />
         <option value="UserPresentReceiver" />
         <option value="WebView" />
-        <option value="http" />
-        <option value="package:mine" />
       </list>
     </option>
   </component>
