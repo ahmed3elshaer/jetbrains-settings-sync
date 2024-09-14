@@ -1,13 +1,13 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="" />
+    <option name="mostRecentlyUsed" value="MapViewImpl" />
     <option name="nonFavorites">
       <list>
-        <option value="MapPickerView" />
         <option value="MapViewImpl" />
+        <option value="package:mine " />
+        <option value="MapPickerView" />
         <option value="map" />
         <option value="setOnCameraMoveStartedListener" />
-        <option value="package:mine " />
         <option value="package:mine MapPickerView" />
         <option value=" update :" />
         <option value="" />
