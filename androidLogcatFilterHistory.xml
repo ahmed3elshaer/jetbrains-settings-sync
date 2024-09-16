@@ -1,8 +1,10 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="MapPickerView" />
+    <option name="mostRecentlyUsed" value="zoom" />
     <option name="nonFavorites">
       <list>
+        <option value="zoom" />
+        <option value="z" />
         <option value="MapPickerView" />
         <option value="Map" />
         <option value="MapView" />
@@ -21,8 +23,6 @@
         <option value="package:com.ahmed3elshaer.weather " />
         <option value="package:com.ahmed3elshaer.weather 1.0" />
         <option value="package:mine SavePhoneNumberOffer" />
-        <option value="UserPresentReceiver" />
-        <option value="WebView" />
       </list>
     </option>
   </component>
