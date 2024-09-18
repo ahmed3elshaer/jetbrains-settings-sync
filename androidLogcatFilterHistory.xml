@@ -1,8 +1,8 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="zoom" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="zoom" />
         <option value="z" />
         <option value="MapPickerView" />
@@ -10,7 +10,6 @@
         <option value="MapView" />
         <option value="MapViewImpl" />
         <option value="map" />
-        <option value="package:mine " />
         <option value="setOnCameraMoveStartedListener" />
         <option value="package:mine MapPickerView" />
         <option value=" update :" />
