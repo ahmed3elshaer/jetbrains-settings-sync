@@ -1,6 +1,8 @@
 <application>
   <component name="LafManager" autodetect="true">
+    <laf themeId="69fcc1c5-5e92-4b9d-ac6b-0ea625a36946" />
     <preferred-light-laf themeId="0f909b88-5e8b-4538-a855-7f37c2087608" />
-    <preferred-dark-editor-scheme editorSchemeId="Fleetokai" />
+    <preferred-dark-laf themeId="69fcc1c5-5e92-4b9d-ac6b-0ea625a36946" />
+    <preferred-dark-editor-scheme editorSchemeId="gradient-night" />
   </component>
 </application>

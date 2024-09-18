@@ -18,6 +18,15 @@
   <action id="ClassNameCompletion" />
   <action id="CodeCompletion" />
   <action id="DuplicatesForm.SendToRight" />
+  <action id="EditorPageDown">
+    <keyboard-shortcut first-keystroke="page_down" />
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="ctrl meta down" />
+  </action>
+  <action id="EditorPageUp">
+    <keyboard-shortcut first-keystroke="page_up" />
+    <keyboard-shortcut first-keystroke="ctrl meta up" />
+  </action>
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
   <action id="GotoNextError" />
