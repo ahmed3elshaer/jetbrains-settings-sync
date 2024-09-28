@@ -1,27 +1,28 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="SuperMapImpl" />
     <option name="nonFavorites">
       <list>
+        <option value="SuperMapImpl" />
+        <option value="Mappicker" />
+        <option value="supermap" />
+        <option value="is:error " />
+        <option value="compose" />
         <option value="package:mine " />
+        <option value="package:mine syst" />
+        <option value="System.out   &#10;" />
+        <option value="sheetOffset" />
+        <option value="contentPlaceable" />
+        <option value="bottomSheetContentHeight" />
+        <option value="****" />
+        <option value="SheetState" />
+        <option value="SheetState.offsetState" />
+        <option value="stateBottomSheetOffset" />
+        <option value="package:mine stateBottomSheetOffset" />
+        <option value="package:mine map" />
         <option value="package:mine type" />
         <option value="package:mine mappable" />
         <option value="zoom" />
-        <option value="z" />
-        <option value="MapPickerView" />
-        <option value="Map" />
-        <option value="MapView" />
-        <option value="MapViewImpl" />
-        <option value="map" />
-        <option value="setOnCameraMoveStartedListener" />
-        <option value="package:mine MapPickerView" />
-        <option value=" update :" />
-        <option value="" />
-        <option value="newList" />
-        <option value="MainActivity" />
-        <option value="package:mine  " />
-        <option value="package:mine  payment failed" />
-        <option value="package:mine  failed" />
-        <option value="package:com.ahmed3elshaer.weather " />
       </list>
     </option>
   </component>

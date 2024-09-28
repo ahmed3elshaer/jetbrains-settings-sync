@@ -30,6 +30,10 @@
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
   <action id="GotoNextError" />
+  <action id="Gradle.ExecuteTask">
+    <keyboard-shortcut first-keystroke="meta g" />
+  </action>
+  <action id="NextOccurence" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
   </action>
