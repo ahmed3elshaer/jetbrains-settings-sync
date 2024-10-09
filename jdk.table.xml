@@ -84,7 +84,7 @@
     <jdk version="2">
       <name value="corretto-21" />
       <type value="JavaSDK" />
-      <version value="java version &quot;21.0.4&quot;" />
+      <version value="Amazon Corretto 21.0.4 - aarch64" />
       <homePath value="/Library/Java/JavaVirtualMachines/amazon-corretto-21.jdk/Contents/Home" />
       <roots>
         <annotationsPath>
