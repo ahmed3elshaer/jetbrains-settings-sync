@@ -1,14 +1,20 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="SuperMapImpl" />
+    <option name="mostRecentlyUsed" value="package:mine tag:CameraUpdate" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine tag:CameraUpdate" />
+        <option value="package:mine CameraUpdate" />
+        <option value="package:mine UiSettingsImpl set AllGesturesEnabled" />
+        <option value="package:mine UiSettingsImpl" />
+        <option value="package:mine " />
+        <option value="package:mine is:error " />
+        <option value="package:mine m" />
         <option value="SuperMapImpl" />
         <option value="Mappicker" />
         <option value="supermap" />
         <option value="is:error " />
         <option value="compose" />
-        <option value="package:mine " />
         <option value="package:mine syst" />
         <option value="System.out   &#10;" />
         <option value="sheetOffset" />
@@ -17,12 +23,6 @@
         <option value="****" />
         <option value="SheetState" />
         <option value="SheetState.offsetState" />
-        <option value="stateBottomSheetOffset" />
-        <option value="package:mine stateBottomSheetOffset" />
-        <option value="package:mine map" />
-        <option value="package:mine type" />
-        <option value="package:mine mappable" />
-        <option value="zoom" />
       </list>
     </option>
   </component>
