@@ -1,13 +1,20 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="map" />
+    <option name="mostRecentlyUsed" value="package:com.careem.acma.beta Logger Ktor =&gt;" />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.careem.acma.beta Logger Ktor =&gt;" />
+        <option value="package:com.careem.acma.beta " />
+        <option value="ktor" />
+        <option value="package: com.careem.acma.beta " />
+        <option value="200" />
+        <option value="is:error " />
+        <option value="package:mine  " />
+        <option value="package:mine is:error " />
         <option value="map" />
         <option value="MapViewImpl(Mappable)" />
         <option value="package:mine " />
         <option value="package:mine Map" />
-        <option value="package:mine is:error " />
         <option value="package:mine tag:CameraUpdate" />
         <option value="package:mine CameraUpdate" />
         <option value="package:mine UiSettingsImpl set AllGesturesEnabled" />
@@ -16,13 +23,6 @@
         <option value="SuperMapImpl" />
         <option value="Mappicker" />
         <option value="supermap" />
-        <option value="is:error " />
-        <option value="compose" />
-        <option value="package:mine syst" />
-        <option value="System.out   &#10;" />
-        <option value="sheetOffset" />
-        <option value="contentPlaceable" />
-        <option value="bottomSheetContentHeight" />
       </list>
     </option>
   </component>
