@@ -3,6 +3,10 @@
     <option name="mostRecentlyUsed" value="" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine BuildingSelection" />
+        <option value="package:mine map" />
+        <option value="MapViewImpl" />
+        <option value="package:mine " />
         <option value="package:com.careem.acma.beta " />
         <option value="package:com.careem.acma.beta Logger Ktor =&gt;" />
         <option value="ktor" />
@@ -13,16 +17,12 @@
         <option value="package:mine is:error " />
         <option value="map" />
         <option value="MapViewImpl(Mappable)" />
-        <option value="package:mine " />
         <option value="package:mine Map" />
         <option value="package:mine tag:CameraUpdate" />
         <option value="package:mine CameraUpdate" />
         <option value="package:mine UiSettingsImpl set AllGesturesEnabled" />
         <option value="package:mine UiSettingsImpl" />
         <option value="package:mine m" />
-        <option value="SuperMapImpl" />
-        <option value="Mappicker" />
-        <option value="supermap" />
       </list>
     </option>
   </component>
