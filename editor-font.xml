@@ -3,7 +3,7 @@
     <option name="VERSION" value="1" />
     <option name="FONT_SIZE" value="16" />
     <option name="FONT_SIZE_2D" value="16.0" />
-    <option name="FONT_FAMILY" value="mononoki" />
+    <option name="FONT_FAMILY" value="Rec Mono Casual" />
     <option name="USE_LIGATURES" value="true" />
   </component>
 </application>
