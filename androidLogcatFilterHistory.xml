@@ -1,13 +1,19 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="" />
     <option name="nonFavorites">
       <list>
-        <option value="is:error " />
         <option value="package:mine " />
+        <option value="package:mine existingDates" />
+        <option value="package:mine" />
+        <option value="package:mine AstronomyPic" />
+        <option value="package:mine AstronomyPictureRemoteMediator" />
+        <option value="package:mine --&gt; GET " />
+        <option value="package:mine Get" />
+        <option value="package:mine AstronomyPicture" />
+        <option value="package:mine Ast" />
+        <option value="is:error " />
         <option value="package:mine &lt;-- 200" />
         <option value="package:mine --&gt; GET" />
-        <option value="package:mine" />
         <option value="is:warn " />
         <option value="package:mine AstronomyPictureViewModel" />
         <option value="package:mine ListState" />
@@ -16,13 +22,6 @@
         <option value="package:mine BuildingSelection" />
         <option value="package:mine map" />
         <option value="MapViewImpl" />
-        <option value="package:com.careem.acma.beta " />
-        <option value="package:com.careem.acma.beta Logger Ktor =&gt;" />
-        <option value="ktor" />
-        <option value="package: com.careem.acma.beta " />
-        <option value="200" />
-        <option value="package:mine  " />
-        <option value="package:mine is:error " />
       </list>
     </option>
   </component>
