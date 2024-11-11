@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="" />
+    <option name="mostRecentlyUsed" value="package:mine mapsDependenciesFactory" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine mapsDependenciesFactory" />
         <option value="package:mine " />
         <option value="package:mine existingDates" />
         <option value="package:mine" />
@@ -22,7 +23,6 @@
         <option value="package:mine sc" />
         <option value="package:mine BuildingSelection" />
         <option value="package:mine map" />
-        <option value="MapViewImpl" />
       </list>
     </option>
   </component>
