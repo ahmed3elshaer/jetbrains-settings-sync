@@ -1,6 +1,6 @@
 <application>
   <component name="CodeGPT_OpenAISettings_210">
     <option name="codeCompletionsEnabled" value="true" />
-    <option name="model" value="o1-mini" />
+    <option name="model" value="o1-preview" />
   </component>
 </application>
