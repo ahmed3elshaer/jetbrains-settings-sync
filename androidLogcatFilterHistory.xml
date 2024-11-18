@@ -1,7 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine map" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine map" />
         <option value="package:mine " />
         <option value="map : " />
         <option value="package:mine mapsDependenciesFactory" />
@@ -21,7 +23,6 @@
         <option value="package:mine ListState" />
         <option value="ListState" />
         <option value="package:mine sc" />
-        <option value="package:mine BuildingSelection" />
       </list>
     </option>
   </component>
