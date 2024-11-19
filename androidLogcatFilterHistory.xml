@@ -1,14 +1,14 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine map" />
+    <option name="mostRecentlyUsed" value="package:mine" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine" />
         <option value="package:mine map" />
         <option value="package:mine " />
         <option value="map : " />
         <option value="package:mine mapsDependenciesFactory" />
         <option value="package:mine existingDates" />
-        <option value="package:mine" />
         <option value="package:mine AstronomyPic" />
         <option value="package:mine AstronomyPictureRemoteMediator" />
         <option value="package:mine --&gt; GET " />

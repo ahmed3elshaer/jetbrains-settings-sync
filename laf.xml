@@ -1,9 +1,9 @@
 <application>
-  <component name="LafManager" autodetect="true">
-    <laf themeId="com.github.catppuccin.mocha.jetbrains" />
+  <component name="LafManager">
+    <laf themeId="69fcc1c5-5e92-4b9d-ac6b-0ea625a36946" />
     <preferred-light-laf themeId="com.github.catppuccin.latte.jetbrains" />
-    <preferred-dark-laf themeId="com.github.catppuccin.mocha.jetbrains" />
-    <preferred-dark-editor-scheme editorSchemeId="Catppuccin Mocha" />
+    <preferred-dark-laf themeId="64bac2a8-9558-4b8a-a0e0-a4017ec9114b" />
+    <preferred-dark-editor-scheme editorSchemeId="Dark purple" />
     <preferred-light-editor-scheme editorSchemeId="Catppuccin Latte" />
   </component>
 </application>

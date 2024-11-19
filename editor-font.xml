@@ -4,8 +4,8 @@
     <option name="FONT_SIZE" value="16" />
     <option name="FONT_SIZE_2D" value="16.0" />
     <option name="FONT_FAMILY" value="Recursive" />
-    <option name="FONT_REGULAR_SUB_FAMILY" value="Mono Casual SemiBold" />
-    <option name="FONT_BOLD_SUB_FAMILY" value="Mono Casual Bold" />
+    <option name="FONT_REGULAR_SUB_FAMILY" value="Mono Casual Medium" />
+    <option name="FONT_BOLD_SUB_FAMILY" value="Mono Casual ExtraBold" />
     <option name="USE_LIGATURES" value="true" />
   </component>
 </application>
