@@ -1,7 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine " />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="package:mine " />
         <option value="package:mine aurora" />
         <option value="package:mine map id" />
@@ -21,7 +23,6 @@
         <option value="package:mine --&gt; GET" />
         <option value="is:warn " />
         <option value="package:mine AstronomyPictureViewModel" />
-        <option value="package:mine ListState" />
       </list>
     </option>
   </component>
