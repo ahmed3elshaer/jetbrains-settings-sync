@@ -1,9 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="" />
     <option name="nonFavorites">
       <list>
         <option value="package:mine " />
+        <option value="" />
         <option value="" />
         <option value="package:mine " />
         <option value="package:mine aurora" />
@@ -22,7 +22,6 @@
         <option value="is:error " />
         <option value="package:mine &lt;-- 200" />
         <option value="package:mine --&gt; GET" />
-        <option value="is:warn " />
       </list>
     </option>
   </component>
