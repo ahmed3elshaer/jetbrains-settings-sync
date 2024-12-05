@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="pick addressDetailsReduce" />
+    <option name="mostRecentlyUsed" value="is:error " />
     <option name="nonFavorites">
       <list>
+        <option value="is:error " />
         <option value="pick addressDetailsReduce" />
         <option value="Logger" />
         <option value="" />
@@ -22,7 +23,6 @@
         <option value="package:mine Get" />
         <option value="package:mine AstronomyPicture" />
         <option value="package:mine Ast" />
-        <option value="is:error " />
       </list>
     </option>
   </component>
