@@ -1,11 +1,10 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine addressDetailsReduce" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="package:mine addressDetailsReduce" />
         <option value="package:mine action" />
-        <option value="package:mine " />
         <option value="is:error " />
         <option value="pick addressDetailsReduce" />
         <option value="Logger" />
