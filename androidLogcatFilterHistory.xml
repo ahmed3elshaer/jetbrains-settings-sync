@@ -1,11 +1,15 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="ActionSinkImpl" />
     <option name="nonFavorites">
       <list>
+        <option value="ActionSinkImpl" />
         <option value="package:mine " />
+        <option value="package:mine addressDetails" />
+        <option value="is:error PickerSyncController" />
+        <option value="is:error " />
         <option value="package:mine addressDetailsReduce" />
         <option value="package:mine action" />
-        <option value="is:error " />
         <option value="pick addressDetailsReduce" />
         <option value="Logger" />
         <option value="" />
@@ -19,9 +23,6 @@
         <option value="package:mine mapsDependenciesFactory" />
         <option value="package:mine existingDates" />
         <option value="package:mine AstronomyPic" />
-        <option value="package:mine AstronomyPictureRemoteMediator" />
-        <option value="package:mine --&gt; GET " />
-        <option value="package:mine Get" />
       </list>
     </option>
   </component>
