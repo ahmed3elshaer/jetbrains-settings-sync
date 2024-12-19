@@ -4,6 +4,7 @@
     <option name="FONT_SIZE" value="17" />
     <option name="FONT_SIZE_2D" value="17.0" />
     <option name="FONT_FAMILY" value="FantasqueSansM Nerd Font" />
+    <option name="FONT_REGULAR_SUB_FAMILY" value="Bold" />
     <option name="USE_LIGATURES" value="true" />
   </component>
 </application>
