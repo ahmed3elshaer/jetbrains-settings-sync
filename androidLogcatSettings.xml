@@ -2,11 +2,15 @@
   <component name="AndroidLogcatSettings">
     <option name="ignoredTags">
       <set>
+        <option value="m.enh" />
+        <option value="m.eke" />
         <option value="AiAiEcho" />
         <option value="ziparchive" />
         <option value="EGL_emulation" />
-        <option value="m.enh" />
-        <option value="m.eke" />
+        <option value="m.elv" />
+        <option value="m.eoy" />
+        <option value="m.bhl" />
+        <option value="TrafficStats" />
       </set>
     </option>
   </component>

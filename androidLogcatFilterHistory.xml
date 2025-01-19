@@ -1,10 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine mappable" />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine mappable" />
         <option value="package:mine " />
+        <option value="package:mine mappable" />
         <option value="prevState" />
         <option value="is:error " />
         <option value="package:mine analy" />
