@@ -3,6 +3,8 @@
     <option name="nonFavorites">
       <list>
         <option value="package:mine " />
+        <option value="package:com.careem.acma " />
+        <option value="package:" />
         <option value="package:mine mappable" />
         <option value="prevState" />
         <option value="is:error " />
@@ -20,8 +22,6 @@
         <option value="" />
         <option value="package:mine " />
         <option value="package:mine aurora" />
-        <option value="package:mine map id" />
-        <option value="package:mine map" />
       </list>
     </option>
   </component>
