@@ -7,9 +7,6 @@
   <action id="ActivateLogcatToolWindow">
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
-  <action id="ActivateRunningDevicesToolWindow">
-    <keyboard-shortcut first-keystroke="meta 3" />
-  </action>
   <action id="Android.SyncProject">
     <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
@@ -56,5 +53,9 @@
   </action>
   <action id="android.device.screenshot" />
   <action id="android.device.sleep" />
+  <action id="copilot.chat.show">
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>
