@@ -1,7 +1,11 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="attempt" />
     <option name="nonFavorites">
       <list>
+        <option value="attempt" />
+        <option value=" retry" />
+        <option value="package:mine r" />
         <option value="package:mine " />
         <option value="package:com.careem.acma " />
         <option value="package:" />
@@ -19,9 +23,6 @@
         <option value="pick addressDetailsReduce" />
         <option value="Logger" />
         <option value="" />
-        <option value="" />
-        <option value="package:mine " />
-        <option value="package:mine aurora" />
       </list>
     </option>
   </component>
