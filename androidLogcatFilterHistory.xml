@@ -1,8 +1,12 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="api" />
+    <option name="mostRecentlyUsed" value="fetchSuggestion" />
     <option name="nonFavorites">
       <list>
+        <option value="fetchSuggestion" />
+        <option value="package:mine " />
+        <option value="MainActivity" />
+        <option value="SuggestInitialLocationHandler" />
         <option value="api" />
         <option value="mappable key" />
         <option value="mappable" />
@@ -10,7 +14,6 @@
         <option value="attempt" />
         <option value=" retry" />
         <option value="package:mine r" />
-        <option value="package:mine " />
         <option value="package:com.careem.acma " />
         <option value="package:" />
         <option value="package:mine mappable" />
@@ -20,9 +23,6 @@
         <option value="package:mine analytics" />
         <option value="package:mine System.out" />
         <option value="ActionSinkImpl" />
-        <option value="package:mine addressDetails" />
-        <option value="is:error PickerSyncController" />
-        <option value="package:mine addressDetailsReduce" />
       </list>
     </option>
   </component>
