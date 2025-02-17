@@ -1,8 +1,12 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="" />
+    <option name="mostRecentlyUsed" value="api" />
     <option name="nonFavorites">
       <list>
+        <option value="api" />
+        <option value="mappable key" />
+        <option value="mappable" />
+        <option value="is:warn " />
         <option value="attempt" />
         <option value=" retry" />
         <option value="package:mine r" />
@@ -19,10 +23,6 @@
         <option value="package:mine addressDetails" />
         <option value="is:error PickerSyncController" />
         <option value="package:mine addressDetailsReduce" />
-        <option value="package:mine action" />
-        <option value="pick addressDetailsReduce" />
-        <option value="Logger" />
-        <option value="" />
       </list>
     </option>
   </component>
