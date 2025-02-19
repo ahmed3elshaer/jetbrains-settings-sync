@@ -1,10 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine benc" />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine benc" />
         <option value="package:mine " />
+        <option value="package:mine benc" />
         <option value="package:mine " />
         <option value="fetchSuggestion" />
         <option value="MainActivity" />
