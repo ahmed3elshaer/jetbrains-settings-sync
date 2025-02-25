@@ -1,0 +1,5 @@
+<application>
+  <component name="CodeGPT_AnthropicSettings">
+    <option name="model" value="claude-3-7-sonnet-20250219" />
+  </component>
+</application>
