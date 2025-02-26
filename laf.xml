@@ -1,7 +1,6 @@
 <application>
-  <component name="LafManager" autodetect="true">
-    <laf themeId="RiderDay" />
-    <preferred-light-laf themeId="RiderDay" />
+  <component name="LafManager">
+    <preferred-light-laf themeId="64bac2a8-9558-4b8a-a0e0-a00000000030" />
     <preferred-dark-laf themeId="64bac2a8-9558-4b8a-a0e0-a00000000013" />
     <preferred-dark-editor-scheme editorSchemeId="Gerry Dark" />
   </component>
