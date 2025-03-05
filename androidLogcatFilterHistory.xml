@@ -1,7 +1,13 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:com.careem.acma.beta " />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.careem.acma.beta " />
+        <option value="com_careem_globalexperiences" />
+        <option value="Value" />
+        <option value="toggle" />
+        <option value="consumer" />
         <option value="package:mine " />
         <option value="package:mine benc" />
         <option value="package:mine " />
@@ -17,11 +23,6 @@
         <option value="package:mine r" />
         <option value="package:com.careem.acma " />
         <option value="package:" />
-        <option value="package:mine mappable" />
-        <option value="prevState" />
-        <option value="is:error " />
-        <option value="package:mine analy" />
-        <option value="package:mine analytics" />
       </list>
     </option>
   </component>
