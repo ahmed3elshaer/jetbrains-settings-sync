@@ -1,7 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine location_" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine location_" />
         <option value="package:mine " />
         <option value="package:com.careem.acma.beta " />
         <option value="com_careem_globalexperiences" />
@@ -21,7 +23,6 @@
         <option value=" retry" />
         <option value="package:mine r" />
         <option value="package:com.careem.acma " />
-        <option value="package:" />
       </list>
     </option>
   </component>
