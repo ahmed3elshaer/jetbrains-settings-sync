@@ -1,7 +1,7 @@
 <application>
   <component name="UISettings">
     <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
-    <option name="EDITOR_TAB_PLACEMENT" value="0" />
+    <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
     <option name="NAVIGATION_BAR_LOCATION" value="TOP" />
     <option name="UI_DENSITY" value="COMPACT" />
   </component>
