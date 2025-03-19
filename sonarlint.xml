@@ -1,5 +1,6 @@
 <application>
   <component name="SonarLintGlobalSettings">
+    <option name="focusOnNewCode" value="true" />
     <option name="rulesByKey">
       <map>
         <entry key="kotlin:S1481">
@@ -8,6 +9,15 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="sonarQubeServers">
+      <list>
+        <SonarQubeServer>
+          <option name="hostUrl" value="https://cicdqa-sonarqube.careem-internal.com" />
+          <token>dfd9dfdbdfdfdff5dfcedf9fdf99df99dfc9dfccdfcfdf9adf9adfcbdfcfdfcbdf9ddfcbdf9cdf9cdf92df92dfccdf98df9edf9bdf98df92df98dfccdfcedf9cdf9adfcbdf92df9cdfcfdfc8df9edfcbdf92dfcbdf9cdf99</token>
+          <option name="name" value="careem" />
+        </SonarQubeServer>
+      </list>
     </option>
     <rules>
       <Rule active="false" key="kotlin:S1481" />
