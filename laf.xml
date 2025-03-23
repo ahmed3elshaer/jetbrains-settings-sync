@@ -1,7 +1,11 @@
 <application>
   <component name="LafManager">
+    <laf themeId="ExperimentalLightWithLightHeader" />
     <preferred-light-laf themeId="64bac2a8-9558-4b8a-a0e0-a00000000030" />
     <preferred-dark-laf themeId="64bac2a8-9558-4b8a-a0e0-a00000000013" />
     <preferred-dark-editor-scheme editorSchemeId="Gerry Dark" />
+    <lafs-to-previous-schemes>
+      <laf-to-scheme laf="ExperimentalDark" scheme="_@user_New Dark" />
+    </lafs-to-previous-schemes>
   </component>
 </application>
