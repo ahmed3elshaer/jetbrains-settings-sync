@@ -13,7 +13,11 @@
   <component name="StatusBar">
     <option name="widgets">
       <map>
+        <entry key="Memory" value="true" />
+        <entry key="SendFeedbackPanel" value="false" />
         <entry key="ee.carlrobert.codegpt.statusbar.widget" value="false" />
+        <entry key="kotlin.k2.mode" value="false" />
+        <entry key="ocResolveContextPanel" value="false" />
       </map>
     </option>
   </component>
