@@ -12,9 +12,14 @@
   <component name="StatusBar">
     <option name="widgets">
       <map>
-        <entry key="Memory" value="true" />
+        <entry key="ClangTidyStatusBarWidget" value="false" />
+        <entry key="CodeStyleStatusBarWidget" value="false" />
+        <entry key="Encoding" value="false" />
+        <entry key="LanguageServiceStatusBarWidget" value="false" />
+        <entry key="ReadOnlyAttribute" value="false" />
         <entry key="SendFeedbackPanel" value="false" />
         <entry key="ee.carlrobert.codegpt.statusbar.widget" value="false" />
+        <entry key="github.copilot.statusBarWidgetFactory" value="false" />
         <entry key="kotlin.k2.mode" value="false" />
         <entry key="ocResolveContextPanel" value="false" />
       </map>
