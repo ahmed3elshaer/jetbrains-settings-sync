@@ -7,15 +7,6 @@
   <action id="ActivateLogcatToolWindow">
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
-  <action id="Adtui.ZoomInAction">
-    <keyboard-shortcut first-keystroke="shift meta equals" />
-  </action>
-  <action id="Adtui.ZoomOutAction">
-    <keyboard-shortcut first-keystroke="shift meta minus" />
-  </action>
-  <action id="Adtui.ZoomToActualAction">
-    <keyboard-shortcut first-keystroke="shift meta 0" />
-  </action>
   <action id="Android.SyncProject">
     <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
@@ -23,15 +14,6 @@
   <action id="ChangesView.SetDefault" />
   <action id="ClassNameCompletion" />
   <action id="CodeCompletion" />
-  <action id="CollapseExpandableComponent">
-    <keyboard-shortcut first-keystroke="shift enter" />
-    <keyboard-shortcut first-keystroke="meta subtract" />
-  </action>
-  <action id="CollapseRegion">
-    <keyboard-shortcut first-keystroke="meta alt open_bracket" />
-    <keyboard-shortcut first-keystroke="meta minus" />
-  </action>
-  <action id="CompilationChartsZoomResetAction" />
   <action id="DuplicatesForm.SendToRight" />
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
@@ -42,18 +24,6 @@
     <keyboard-shortcut first-keystroke="page_up" />
     <keyboard-shortcut first-keystroke="ctrl meta up" />
   </action>
-  <action id="ExpandCollapseToggleAction">
-    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
-    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
-  </action>
-  <action id="ExpandExpandableComponent">
-    <keyboard-shortcut first-keystroke="shift enter" />
-    <keyboard-shortcut first-keystroke="meta add" />
-  </action>
-  <action id="ExpandRegion">
-    <keyboard-shortcut first-keystroke="meta alt close_bracket" />
-    <keyboard-shortcut first-keystroke="meta equals" />
-  </action>
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
   <action id="GotoNextError" />
@@ -61,22 +31,20 @@
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="NextOccurence" />
-  <action id="NextTab" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+  </action>
   <action id="OpenInlineChatAction">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
-  <action id="PreviousTab" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+  </action>
   <action id="RecentFiles">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
   <action id="SelectAllOccurrences" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
-  <action id="ZoomCurrentWindow" />
-  <action id="ZoomInIdeAction">
-    <keyboard-shortcut first-keystroke="meta add" />
-    <keyboard-shortcut first-keystroke="meta add" />
-  </action>
-  <action id="ZoomOutIdeAction" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta e" />
   </action>
