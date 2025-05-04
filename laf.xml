@@ -1,9 +1,9 @@
 <application>
   <component name="LafManager" autodetect="true">
-    <laf themeId="ae7a917c-04b2-4468-bdd8-6ddd4c43f879" />
+    <laf themeId="69fcc1c5-5e92-4b9d-ac6b-0ea625a36946" />
     <preferred-light-laf themeId="60306159-29af-468e-9c4d-d7d312c47a99" />
-    <preferred-dark-laf themeId="ae7a917c-04b2-4468-bdd8-6ddd4c43f879" />
-    <preferred-dark-editor-scheme editorSchemeId="True Dark" />
+    <preferred-dark-laf themeId="69fcc1c5-5e92-4b9d-ac6b-0ea625a36946" />
+    <preferred-dark-editor-scheme editorSchemeId="gradient-night" />
     <preferred-light-editor-scheme editorSchemeId="Copy of gradient-night" />
     <lafs-to-previous-schemes>
       <laf-to-scheme laf="ExperimentalDark" scheme="_@user_New Dark" />
