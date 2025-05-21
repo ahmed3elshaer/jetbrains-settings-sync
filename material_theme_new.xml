@@ -1,0 +1,25 @@
+<application>
+  <component name="MaterialThemeNewConfig">
+    <option name="accentState">
+      <MTAccentConfigState>
+        <option name="accentColorHex" value="009688" />
+      </MTAccentConfigState>
+    </option>
+    <option name="featuresState">
+      <MTFeaturesConfigState>
+        <option name="animatedToolWindows" value="false" />
+      </MTFeaturesConfigState>
+    </option>
+    <option name="metadata">
+      <MTMetadataState>
+        <option name="userId" value="399432e3:196f2ffc636:-8000" />
+        <option name="version" value="9.7.0" />
+      </MTMetadataState>
+    </option>
+    <option name="projectTreeState">
+      <MTProjectTreeConfigState>
+        <option name="customLineHeightEnabled" value="true" />
+      </MTProjectTreeConfigState>
+    </option>
+  </component>
+</application>
